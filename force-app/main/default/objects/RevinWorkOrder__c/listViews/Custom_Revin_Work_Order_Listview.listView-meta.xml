@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Revin_Work_Order_Listview</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>RevinCustomer__c</columns>
+    <columns>Price__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Delivered to Customer</value>
+    </filters>
+    <label>Custom Revin Active Work Order Listview</label>
+</ListView>

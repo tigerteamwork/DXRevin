@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revin_Valid_VIN</fullName>
+    <active>true</active>
+    <errorConditionFormula>!REGEX( VIN__c , &quot;(((\\d{4}-){3}\\d{4})|\\d{16})?&quot;)</errorConditionFormula>
+    <errorMessage>Invalid VIN.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MyItems</fullName>
+    <columns>NAME</columns>
+    <columns>CompletedTesting__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CompletedTesting__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>My Items</label>
+</ListView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RevInnovationDeclinedQueue_RevInnovation</fullName>
+    <columns>NAME</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>DateCreatedAndQueued__c</columns>
+    <columns>DateDeclined__c</columns>
+    <filterScope>Queue</filterScope>
+    <label>Rev Items Declined Queue</label>
+    <queue>RevItemsDeclinedQueue</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

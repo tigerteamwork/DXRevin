@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllItemsPendingDevelopment</fullName>
+    <columns>NAME</columns>
+    <columns>DateStartedDevelopment__c</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>CompletedTesting__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>All Items Pending Development</label>
+    <queue>RevItemsInProgressQueue</queue>
+</ListView>

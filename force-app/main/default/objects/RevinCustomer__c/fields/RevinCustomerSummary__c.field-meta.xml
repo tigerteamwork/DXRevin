@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RevinCustomerSummary__c</fullName>
+    <externalId>false</externalId>
+    <label>Revin Customer Summary</label>
+    <summarizedField>RevinWorkOrder__c.Price__c</summarizedField>
+    <summaryForeignKey>RevinWorkOrder__c.RevinCustomer__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>
